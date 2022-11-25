@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  background-color: #FFF5E4;
+}
+
+h1 {
+  color: #472D2D;
+  margin: 0 auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 3.125rem;
+  /*100% = 16px  50px/16px=312.5%*/
+}
+
+h2 {
+  color: #B73E3E;
+  margin-top: 0;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+}
+
+h3 {
+  color: #472D2D;
+  margin-top: 0;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+}
+
+p {
+  color: #553939;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  line-height: 2;
+  margin: 0 auto 0 auto;
+}
+
+hr {
+  width: 4%;
+  border-bottom: none;
+  border-top-style: dotted;
+  border-top-width: thick;
+  color: #A77979;
+  margin: 70px auto 70px auto;
+}
+
+.head {
+  width: 50%;
+  margin: auto;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 350px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.circuit {
+  height: 500px;
+  position: absolute;
+  right: 800px;
+  top: 60px;
+}
+
+.circuitflipped {
+  position: absolute;
+  transform: scaleX(-1);
+  height: 500px;
+  top: 60px;
+  left: 800px;
+}
+
+.ic {
+  position: absolute;
+  height: 250px;
+  left: 549.5px;
+  top: 320px;
+}
+
+.profile-pic {
+  height: 200px;
+  padding: 15px;
+}
+
+.skill-row {
+  width: 50%;     /**can also be position: relative; width: total width/2; left: new width/2;**/
+  margin: 100px auto 70px auto; /**clockwise from top. auto is to center the class.**/
+  text-align: left;
+}
+
+.coding-img {
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+
+.drawing-img {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+
+.monitoring-img {
+  width: 25%;
+  float: left;
+  margin: 30px;
+  padding-bottom: 40px;
+}
+
+.contact-me {
+  background-color: #FFF5E4;
+  padding: 0 0 50px;
+}
+
+.contactmessage {
+  width: 30%;
+  margin: auto;
+  padding: 50px;
+}
+
+.btn {
+  background: #B73E3E;
+  background-image: linear-gradient(top, #B73E3E, #E26868);
+  background-image: linear-gradient(to bottom, #B73E3E, #E26868);
+  border-radius: 15px;
+  font-family: 'Comfortaa', cursive;
+  color: #EDDBC0;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #E26868;
+  background-image: linear-gradient(top, #E26868, #FF8787);
+  background-image: linear-gradient(to bottom, #FFE162, #E26868);
+  text-decoration: none;
+}  /**GENERATED AT https://css3buttongenerator.com/**/
+
+.bottom-container {
+  position: relative;
+  background: #E26868;
+  background-image: linear-gradient(to bottom, #E26868, #B73E3E);
+  padding: 20px 0 10px;
+}
+
+.facebook-img {
+  position: absolute;
+  left: 600px;
+  top: 5px;
+  margin: 10px auto;
+  height: 50px;
+  width: 50px;
+}
+
+.facebook-img:hover {
+  background: none;
+  background-image: linear-gradient(to bottom, #FFE162, #E26868);
+  border-radius: 7px;
+}
+
+.linkedin-img {
+  position: absolute;
+  right: 600px;
+  top: 5px;
+  margin: 10px auto;
+  height: 50px;
+  width: 50px;
+}
+
+.linkedin-img:hover {
+    background: none;
+    background-image: linear-gradient(to bottom, #FFE162, #E26868);
+    border-radius: 7px;
+}
+
+.footer-link {
+  display: inline-block;
+  height: 0;
+  width: 0;
+}
+
+.copyright {
+  color: #FFF5E4;
+  font-size: 0.75rem;
+  margin: 50px auto 0 auto;
+}
